@@ -31,3 +31,12 @@ let person2: { name: string, age: number } = {
 
 // TS 진위값
 let show: boolean = true;
+
+
+// TS any 타입
+let allValue: any = [1, "3", true, [5, 3]];
+
+// TS void 타입
+let func = function(): void {
+    console.log(123);
+}
