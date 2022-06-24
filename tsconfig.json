@@ -1,0 +1,7 @@
+{
+    "compilerOptions": {
+        "allowJs": true, // 이 프로젝트 안의 js파일을 허용
+        "checkJs": true, // .js 파일에서 타입스크립트 타입 검사 기능을 사용
+        "noImplicitAny": true // 최소한 Any의 타입은 적용
+    }
+}
