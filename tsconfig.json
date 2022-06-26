@@ -3,5 +3,9 @@
         "allowJs": true, // 이 프로젝트 안의 js파일을 허용
         "checkJs": true, // .js 파일에서 타입스크립트 타입 검사 기능을 사용
         "noImplicitAny": true // 최소한 Any의 타입은 적용
-    }
+    },
+    
+    "include": ["src/*"], // .js파일을 .ts파일로 변환할 폴더를 지정
+    "exclude": ["node_modules"], // 변환하지 않을 파일의 경로를 지정 => include와 반대
+    "lib": ["es2015", "dom", "dom.iterable"] // .ts 파일을 .js 파일로 컴파일 할 때 포함될 라이브러리의 목록 / 중요: (es2015는 프로미스 객체를 타입스크립트에서 인식할 수 있게 필요한 속성임)
 }
