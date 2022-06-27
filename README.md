@@ -5,3 +5,6 @@
 
 ### tsconfig.json
 tsconfig.json 파일의 설정을 통해 .ts파일에서 .js파일로 변환할 때의 명령어 tsc를 통한 컴파일의 옵션값 key:value 형태로 줄 수 있음
+
+### type vs interface
+인터페이스는 확장(extends)이 가능하지만 타입앨리어스(type)는 확장이 불가능함
