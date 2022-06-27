@@ -50,3 +50,18 @@ Object.keys(srd).forEach(function(value) {
 });
 
 
+// 인터페이스 확장
+interface Person {
+    name: string;
+    age: number;
+}
+
+interface Developer extends Person {
+    language: string;
+}
+
+const captain: Developer = {
+    language: 'ts',
+    age: 100,
+    name: '캡틴'
+}
